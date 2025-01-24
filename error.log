@@ -1,0 +1,74 @@
+[Wed Oct 30 11:09:00.115729 2024] [mpm_winnt:notice] [pid 1000:tid 460] AH00455: Apache/2.4.62 (Win64) PHP/8.3.13 configured -- resuming normal operations
+[Wed Oct 30 11:09:00.115729 2024] [mpm_winnt:notice] [pid 1000:tid 460] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 30 11:09:00.115729 2024] [core:notice] [pid 1000:tid 460] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Oct 30 11:09:00.284968 2024] [mpm_winnt:notice] [pid 1000:tid 460] AH00418: Parent: Created child process 16500
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 16500:tid 432] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 30 11:23:59.143524 2024] [php:error] [pid 16500:tid 1108] [client ::1:63710] script 'C:/localhost/helllo.php' not found or unable to stat
+[Wed Oct 30 11:24:56.073300 2024] [php:error] [pid 16500:tid 1092] [client ::1:63711] script 'C:/localhost/helllo.php' not found or unable to stat
+[Wed Oct 30 11:43:46.264865 2024] [php:error] [pid 16500:tid 1092] [client ::1:64053] PHP Parse error:  syntax error, unexpected token "echo" in C:\\localhost\\hello.php on line 20
+[Wed Oct 30 11:58:48.665785 2024] [php:warn] [pid 16500:tid 1092] [client ::1:64302] PHP Warning:  Undefined variable $num in C:\\localhost\\hello.php on line 17
+[Wed Oct 30 12:08:22.833432 2024] [php:error] [pid 16500:tid 1092] [client ::1:64439] PHP Parse error:  syntax error, unexpected double-quoted string "-", expecting "," or ";" in C:\\localhost\\hello.php on line 13
+[Wed Oct 30 17:53:27.076325 2024] [mpm_winnt:notice] [pid 1000:tid 460] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 30 17:53:29.144912 2024] [mpm_winnt:notice] [pid 16500:tid 432] AH00364: Child: All worker threads have exited.
+[Wed Oct 30 17:53:29.453121 2024] [mpm_winnt:notice] [pid 1000:tid 460] AH00430: Parent: Child process 16500 exited successfully.
+[Thu Oct 31 10:02:49.625100 2024] [mpm_winnt:notice] [pid 19748:tid 424] AH00455: Apache/2.4.62 (Win64) PHP/8.3.13 configured -- resuming normal operations
+[Thu Oct 31 10:02:49.639393 2024] [mpm_winnt:notice] [pid 19748:tid 424] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Oct 31 10:02:49.639393 2024] [core:notice] [pid 19748:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Oct 31 10:02:50.351233 2024] [mpm_winnt:notice] [pid 19748:tid 424] AH00418: Parent: Created child process 16088
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 16088:tid 428] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 31 10:08:55.056122 2024] [php:error] [pid 16088:tid 1088] [client ::1:50283] PHP Parse error:  syntax error, unexpected token "for", expecting "," or ";" in C:\\localhost\\hello.php on line 36
+[Thu Oct 31 10:09:30.326486 2024] [php:error] [pid 16088:tid 1096] [client ::1:50284] PHP Parse error:  syntax error, unexpected token "for", expecting "," or ";" in C:\\localhost\\hello.php on line 36
+[Thu Oct 31 10:09:31.125535 2024] [php:error] [pid 16088:tid 1096] [client ::1:50284] PHP Parse error:  syntax error, unexpected token "for", expecting "," or ";" in C:\\localhost\\hello.php on line 36
+[Thu Oct 31 10:09:31.319326 2024] [php:error] [pid 16088:tid 1096] [client ::1:50284] PHP Parse error:  syntax error, unexpected token "for", expecting "," or ";" in C:\\localhost\\hello.php on line 36
+[Thu Oct 31 10:11:05.486118 2024] [php:error] [pid 16088:tid 1088] [client ::1:50319] PHP Parse error:  syntax error, unexpected token "for", expecting "," or ";" in C:\\localhost\\hello.php on line 36
+[Thu Oct 31 10:11:43.525981 2024] [php:error] [pid 16088:tid 1096] [client ::1:50320] PHP Parse error:  syntax error, unexpected token "for", expecting "," or ";" in C:\\localhost\\hello.php on line 36
+[Thu Oct 31 10:16:44.553892 2024] [php:error] [pid 16088:tid 1096] [client ::1:50401] PHP Parse error:  syntax error, unexpected token "for", expecting "," or ";" in C:\\localhost\\hello.php on line 36
+[Thu Oct 31 10:28:06.587340 2024] [php:error] [pid 16088:tid 1088] [client ::1:50588] PHP Parse error:  syntax error, unexpected token "{" in C:\\localhost\\hello.php on line 41
+[Thu Oct 31 11:18:04.681436 2024] [php:warn] [pid 16088:tid 1096] [client ::1:51452] PHP Warning:  Undefined variable $el in C:\\localhost\\hello.php on line 43
+[Thu Oct 31 11:18:04.681436 2024] [php:warn] [pid 16088:tid 1096] [client ::1:51452] PHP Warning:  Undefined variable $el in C:\\localhost\\hello.php on line 43
+[Thu Oct 31 11:18:04.681436 2024] [php:warn] [pid 16088:tid 1096] [client ::1:51452] PHP Warning:  Undefined variable $el in C:\\localhost\\hello.php on line 43
+[Thu Oct 31 11:18:04.681436 2024] [php:warn] [pid 16088:tid 1096] [client ::1:51452] PHP Warning:  Undefined variable $el in C:\\localhost\\hello.php on line 43
+[Thu Oct 31 11:18:44.270384 2024] [php:error] [pid 16088:tid 1088] [client ::1:51466] PHP Parse error:  syntax error, unexpected double-quote mark, expecting "," or ";" in C:\\localhost\\hello.php on line 43
+[Thu Oct 31 11:19:00.382628 2024] [php:error] [pid 16088:tid 1096] [client ::1:51474] PHP Parse error:  syntax error, unexpected double-quote mark, expecting "," or ";" in C:\\localhost\\hello.php on line 43
+[Thu Oct 31 11:19:00.974264 2024] [php:error] [pid 16088:tid 1096] [client ::1:51474] PHP Parse error:  syntax error, unexpected double-quote mark, expecting "," or ";" in C:\\localhost\\hello.php on line 43
+[Thu Oct 31 11:19:01.134782 2024] [php:error] [pid 16088:tid 1096] [client ::1:51474] PHP Parse error:  syntax error, unexpected double-quote mark, expecting "," or ";" in C:\\localhost\\hello.php on line 43
+[Thu Oct 31 11:35:54.857511 2024] [php:error] [pid 16088:tid 1096] [client ::1:51722] PHP Parse error:  syntax error, unexpected token "foreach" in C:\\localhost\\hello.php on line 48
+[Thu Oct 31 14:43:42.294296 2024] [php:error] [pid 16088:tid 1096] [client ::1:56049] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\\localhost\\hello.php on line 56
+[Thu Oct 31 17:55:48.707946 2024] [mpm_winnt:notice] [pid 19748:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 31 17:55:50.811152 2024] [mpm_winnt:notice] [pid 16088:tid 428] AH00364: Child: All worker threads have exited.
+[Thu Oct 31 17:55:51.012809 2024] [mpm_winnt:notice] [pid 19748:tid 424] AH00430: Parent: Child process 16088 exited successfully.
+[Tue Jan 21 10:27:40.213630 2025] [mpm_winnt:notice] [pid 10276:tid 424] AH00455: Apache/2.4.62 (Win64) PHP/8.3.13 configured -- resuming normal operations
+[Tue Jan 21 10:27:40.228116 2025] [mpm_winnt:notice] [pid 10276:tid 424] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Jan 21 10:27:40.228116 2025] [core:notice] [pid 10276:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 21 10:27:40.240894 2025] [mpm_winnt:notice] [pid 10276:tid 424] AH00418: Parent: Created child process 13768
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 13768:tid 432] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 21 11:00:47.055013 2025] [php:error] [pid 13768:tid 1092] [client ::1:53964] PHP Parse error:  syntax error, unexpected token "+", expecting "->" or "?->" or "{" or "[" in C:\\localhost\\index.php on line 4
+[Tue Jan 21 17:59:19.731578 2025] [mpm_winnt:notice] [pid 10276:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 21 17:59:21.748376 2025] [mpm_winnt:notice] [pid 13768:tid 432] AH00364: Child: All worker threads have exited.
+[Tue Jan 21 17:59:21.941425 2025] [mpm_winnt:notice] [pid 10276:tid 424] AH00430: Parent: Child process 13768 exited successfully.
+[Thu Jan 23 09:07:26.261348 2025] [mpm_winnt:notice] [pid 12072:tid 424] AH00455: Apache/2.4.62 (Win64) PHP/8.3.13 configured -- resuming normal operations
+[Thu Jan 23 09:07:26.298664 2025] [mpm_winnt:notice] [pid 12072:tid 424] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Jan 23 09:07:26.298664 2025] [core:notice] [pid 12072:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Jan 23 09:07:26.310694 2025] [mpm_winnt:notice] [pid 12072:tid 424] AH00418: Parent: Created child process 1316
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 1316:tid 428] AH00354: Child: Starting 64 worker threads.
+[Thu Jan 23 16:15:02.481360 2025] [php:error] [pid 1316:tid 1124] [client ::1:57222] PHP Fatal error:  Uncaught Error: str_replace(): Argument #4 ($count) could not be passed by reference in C:\\localhost\\study\\vasilev_book\\2_chapter\\index.php:45\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\study\\vasilev_book\\2_chapter\\index.php on line 45
+[Thu Jan 23 16:35:49.974209 2025] [php:error] [pid 1316:tid 1120] [client ::1:57641] PHP Fatal error:  Uncaught Error: Undefined constant "STDIN" in C:\\localhost\\study\\vasilev_book\\2_chapter\\index.php:47\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\study\\vasilev_book\\2_chapter\\index.php on line 47
+[Thu Jan 23 17:26:37.454713 2025] [php:warn] [pid 1316:tid 1124] [client ::1:58738] PHP Warning:  Undefined variable $str_var in C:\\localhost\\study\\vasilev_book\\3_chapter\\index.php on line 11
+[Thu Jan 23 17:26:37.454713 2025] [php:notice] [pid 1316:tid 1124] [client ::1:58738] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\\localhost\\study\\vasilev_book\\3_chapter\\index.php on line 11
+[Thu Jan 23 17:26:37.499785 2025] [php:warn] [pid 1316:tid 1124] [client ::1:58738] PHP Warning:  Undefined variable $str_var in C:\\localhost\\study\\vasilev_book\\3_chapter\\index.php on line 14
+[Thu Jan 23 17:36:26.712407 2025] [mpm_winnt:notice] [pid 12072:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jan 23 17:36:28.787731 2025] [mpm_winnt:notice] [pid 1316:tid 428] AH00364: Child: All worker threads have exited.
+[Fri Jan 24 09:04:45.371522 2025] [core:warn] [pid 11564:tid 424] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jan 24 09:04:45.446271 2025] [mpm_winnt:notice] [pid 11564:tid 424] AH00455: Apache/2.4.62 (Win64) PHP/8.3.13 configured -- resuming normal operations
+[Fri Jan 24 09:04:45.446271 2025] [mpm_winnt:notice] [pid 11564:tid 424] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Jan 24 09:04:45.446271 2025] [core:notice] [pid 11564:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Jan 24 09:04:45.449271 2025] [mpm_winnt:notice] [pid 11564:tid 424] AH00418: Parent: Created child process 14088
+[Fri Jan 24 09:04:46.810029 2025] [mpm_winnt:notice] [pid 14088:tid 436] AH00354: Child: Starting 64 worker threads.
+[Fri Jan 24 12:26:44.124435 2025] [php:warn] [pid 14088:tid 1120] [client ::1:65353] PHP Warning:  Array to string conversion in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 14
+[Fri Jan 24 12:43:07.931707 2025] [php:warn] [pid 14088:tid 1120] [client ::1:49604] PHP Warning:  Undefined array key 8 in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 15
+[Fri Jan 24 13:26:46.373958 2025] [php:warn] [pid 14088:tid 1120] [client ::1:51269] PHP Warning:  Array to string conversion in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 14
+[Fri Jan 24 13:54:50.443478 2025] [php:warn] [pid 14088:tid 1120] [client ::1:52256] PHP Warning:  Array to string conversion in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 22
