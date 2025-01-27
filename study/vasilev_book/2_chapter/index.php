@@ -20,13 +20,14 @@
         // Работа с типами данных
         print gettype(WEIGHT). "<br>";
         echo gettype(WEIGHT), " конец строки.<br>";
-        echo is_numeric($number), "проверка is_numeric()<br>";
-        echo is_numeric("1245"), "проверка is_numeric()<br>";
+        echo is_numeric($number), " - проверка is_numeric()<br>";
+        echo is_numeric("1245"), " - проверка is_numeric()<br>";
+        echo is_numeric("Головко"), " - проверка is_numeric()<br>";
         $str_number = "12354";
         echo (int)($str_number), "тип - ", gettype((int)($str_number)), "<br>";
         echo (bool)($str_number), "тип - ", gettype((bool)($str_number)), "<br>";
       
-        $null_var = TRUE;
+        $null_var = true;
         echo isset($null_var), "<br>";
 
         // Операции с текстом

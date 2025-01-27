@@ -67,8 +67,16 @@ pm_winnt:notice] [pid 1316:tid 428] AH00354: Child: Starting 64 worker threads.
 [Fri Jan 24 09:04:45.446271 2025] [mpm_winnt:notice] [pid 11564:tid 424] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
 [Fri Jan 24 09:04:45.446271 2025] [core:notice] [pid 11564:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
 [Fri Jan 24 09:04:45.449271 2025] [mpm_winnt:notice] [pid 11564:tid 424] AH00418: Parent: Created child process 14088
-[Fri Jan 24 09:04:46.810029 2025] [mpm_winnt:notice] [pid 14088:tid 436] AH00354: Child: Starting 64 worker threads.
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 14088:tid 436] AH00354: Child: Starting 64 worker threads.
 [Fri Jan 24 12:26:44.124435 2025] [php:warn] [pid 14088:tid 1120] [client ::1:65353] PHP Warning:  Array to string conversion in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 14
 [Fri Jan 24 12:43:07.931707 2025] [php:warn] [pid 14088:tid 1120] [client ::1:49604] PHP Warning:  Undefined array key 8 in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 15
 [Fri Jan 24 13:26:46.373958 2025] [php:warn] [pid 14088:tid 1120] [client ::1:51269] PHP Warning:  Array to string conversion in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 14
 [Fri Jan 24 13:54:50.443478 2025] [php:warn] [pid 14088:tid 1120] [client ::1:52256] PHP Warning:  Array to string conversion in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 22
+[Fri Jan 24 15:56:30.681212 2025] [mpm_winnt:notice] [pid 11564:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jan 24 15:56:33.012507 2025] [mpm_winnt:notice] [pid 14088:tid 436] AH00364: Child: All worker threads have exited.
+[Mon Jan 27 11:33:02.378135 2025] [core:warn] [pid 16460:tid 424] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 27 11:33:03.512454 2025] [mpm_winnt:notice] [pid 16460:tid 424] AH00455: Apache/2.4.62 (Win64) PHP/8.3.13 configured -- resuming normal operations
+[Mon Jan 27 11:33:03.512454 2025] [mpm_winnt:notice] [pid 16460:tid 424] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Mon Jan 27 11:33:03.512454 2025] [core:notice] [pid 16460:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Jan 27 11:33:03.518224 2025] [mpm_winnt:notice] [pid 16460:tid 424] AH00418: Parent: Created child process 924
