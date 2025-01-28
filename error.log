@@ -80,3 +80,38 @@ pm_winnt:notice] [pid 14088:tid 436] AH00354: Child: Starting 64 worker threads.
 [Mon Jan 27 11:33:03.512454 2025] [mpm_winnt:notice] [pid 16460:tid 424] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
 [Mon Jan 27 11:33:03.512454 2025] [core:notice] [pid 16460:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
 [Mon Jan 27 11:33:03.518224 2025] [mpm_winnt:notice] [pid 16460:tid 424] AH00418: Parent: Created child process 924
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 924:tid 428] AH00354: Child: Starting 64 worker threads.
+[Mon Jan 27 11:42:45.581756 2025] [php:warn] [pid 924:tid 1124] [client ::1:62288] PHP Warning:  Array to string conversion in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 20
+[Mon Jan 27 14:55:04.768901 2025] [php:warn] [pid 924:tid 1120] [client ::1:54781] PHP Warning:  Undefined variable $arr6 in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 87
+[Mon Jan 27 14:55:04.832900 2025] [php:error] [pid 924:tid 1120] [client ::1:54781] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: array + null in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php:87\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 87
+[Mon Jan 27 14:55:05.269780 2025] [php:warn] [pid 924:tid 1120] [client ::1:54781] PHP Warning:  Undefined variable $arr6 in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 87
+[Mon Jan 27 14:55:05.269780 2025] [php:error] [pid 924:tid 1120] [client ::1:54781] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: array + null in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php:87\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 87
+[Mon Jan 27 14:55:06.371701 2025] [php:warn] [pid 924:tid 1120] [client ::1:54781] PHP Warning:  Undefined variable $arr6 in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 87
+[Mon Jan 27 14:55:06.371701 2025] [php:error] [pid 924:tid 1120] [client ::1:54781] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: array + null in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php:87\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 87
+[Mon Jan 27 14:55:06.581923 2025] [php:warn] [pid 924:tid 1120] [client ::1:54781] PHP Warning:  Undefined variable $arr6 in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 87
+[Mon Jan 27 14:55:06.581923 2025] [php:error] [pid 924:tid 1120] [client ::1:54781] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: array + null in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php:87\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 87
+[Mon Jan 27 17:50:19.183713 2025] [mpm_winnt:notice] [pid 16460:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jan 27 17:50:21.722528 2025] [mpm_winnt:notice] [pid 924:tid 428] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 09:04:34.761839 2025] [core:warn] [pid 19516:tid 424] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 28 09:04:36.115037 2025] [mpm_winnt:notice] [pid 19516:tid 424] AH00455: Apache/2.4.62 (Win64) PHP/8.3.13 configured -- resuming normal operations
+[Tue Jan 28 09:04:36.115037 2025] [mpm_winnt:notice] [pid 19516:tid 424] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Jan 28 09:04:36.115037 2025] [core:notice] [pid 19516:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 28 09:04:36.133062 2025] [mpm_winnt:notice] [pid 19516:tid 424] AH00418: Parent: Created child process 17884
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 17884:tid 428] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 11:15:08.771070 2025] [mpm_winnt:notice] [pid 19516:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 28 11:15:10.798437 2025] [mpm_winnt:notice] [pid 17884:tid 428] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 11:15:11.074236 2025] [mpm_winnt:notice] [pid 19516:tid 424] AH00430: Parent: Child process 17884 exited successfully.
+[Tue Jan 28 17:51:35.442187 2025] [mpm_winnt:notice] [pid 8988:tid 424] AH00455: Apache/2.4.62 (Win64) PHP/8.3.13 configured -- resuming normal operations
+[Tue Jan 28 17:51:35.478817 2025] [mpm_winnt:notice] [pid 8988:tid 424] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Jan 28 17:51:35.478817 2025] [core:notice] [pid 8988:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Jan 28 17:51:35.488787 2025] [mpm_winnt:notice] [pid 8988:tid 424] AH00418: Parent: Created child process 13856
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 13856:tid 428] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 28 17:53:38.532078 2025] [php:error] [pid 13856:tid 1152] [client ::1:61752] PHP Fatal error:  Uncaught ArgumentCountError: array_pop() expects exactly 1 argument, 0 given in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php:130\nStack trace:\n#0 C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php(130): array_pop()\n#1 {main}\n  thrown in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 130
+[Tue Jan 28 17:54:18.350493 2025] [php:error] [pid 13856:tid 1152] [client ::1:61779] PHP Fatal error:  Uncaught ArgumentCountError: array_pop() expects exactly 1 argument, 2 given in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php:130\nStack trace:\n#0 C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php(130): array_pop(Array, 2)\n#1 {main}\n  thrown in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 130
+[Tue Jan 28 17:55:54.853507 2025] [php:error] [pid 13856:tid 1156] [client ::1:61889] PHP Fatal error:  Uncaught Error: array_push(): Argument #1 ($array) could not be passed by reference in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php:136\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\study\\vasilev_book\\4_chapter\\index.php on line 136
+[Tue Jan 28 17:58:47.832731 2025] [mpm_winnt:notice] [pid 8988:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 28 17:58:49.851178 2025] [mpm_winnt:notice] [pid 13856:tid 428] AH00364: Child: All worker threads have exited.
+[Tue Jan 28 17:58:50.013453 2025] [mpm_winnt:notice] [pid 8988:tid 424] AH00430: Parent: Child process 13856 exited successfully.
