@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.main-window {
+    display: flex;
+}
+
+/*Шапка*/
+header {
+    height: 75px;
+    background-color: green;
+    color: black;
+}
+/*Навигация*/
+nav {
+    margin: 0 0 0 300px;
+    width: 200px;
+    height: 100vh;
+}
+/*Контент*/
+main {
+    color: white;
+}
+
+.container {
+    
+}
+/*Форма*/
+/*Общее*/
+.border {
+    border: 1px solid white;
+}
