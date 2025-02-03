@@ -115,3 +115,27 @@ pm_winnt:notice] [pid 13856:tid 428] AH00354: Child: Starting 64 worker threads.
 [Tue Jan 28 17:58:47.832731 2025] [mpm_winnt:notice] [pid 8988:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Tue Jan 28 17:58:49.851178 2025] [mpm_winnt:notice] [pid 13856:tid 428] AH00364: Child: All worker threads have exited.
 [Tue Jan 28 17:58:50.013453 2025] [mpm_winnt:notice] [pid 8988:tid 424] AH00430: Parent: Child process 13856 exited successfully.
+[Mon Feb 03 10:35:38.472778 2025] [mpm_winnt:notice] [pid 11052:tid 424] AH00455: Apache/2.4.62 (Win64) PHP/8.3.13 configured -- resuming normal operations
+[Mon Feb 03 10:35:38.487136 2025] [mpm_winnt:notice] [pid 11052:tid 424] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Mon Feb 03 10:35:38.487136 2025] [core:notice] [pid 11052:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Feb 03 10:35:38.496521 2025] [mpm_winnt:notice] [pid 11052:tid 424] AH00418: Parent: Created child process 23100
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 23100:tid 428] AH00354: Child: Starting 64 worker threads.
+[Mon Feb 03 13:14:52.655189 2025] [mpm_winnt:notice] [pid 11052:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Feb 03 13:14:54.828218 2025] [mpm_winnt:notice] [pid 23100:tid 428] AH00364: Child: All worker threads have exited.
+[Mon Feb 03 13:14:56.959968 2025] [mpm_winnt:notice] [pid 11052:tid 424] AH00430: Parent: Child process 23100 exited successfully.
+[Mon Feb 03 15:20:50.612332 2025] [core:warn] [pid 17088:tid 432] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 03 15:20:51.866640 2025] [mpm_winnt:notice] [pid 17088:tid 432] AH00455: Apache/2.4.62 (Win64) PHP/8.3.13 configured -- resuming normal operations
+[Mon Feb 03 15:20:51.867686 2025] [mpm_winnt:notice] [pid 17088:tid 432] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Mon Feb 03 15:20:51.867686 2025] [core:notice] [pid 17088:tid 432] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Feb 03 15:20:51.872634 2025] [mpm_winnt:notice] [pid 17088:tid 432] AH00418: Parent: Created child process 9968
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 9968:tid 428] AH00354: Child: Starting 64 worker threads.
+[Mon Feb 03 16:43:43.907226 2025] [php:notice] [pid 9968:tid 1144] [client ::1:49981] PHP Deprecated:  Implicit conversion from float 199.55 to int loses precision in C:\\localhost\\study\\vasilev_book\\5_chapter\\index.php on line 30
+[Mon Feb 03 16:44:15.076893 2025] [php:error] [pid 9968:tid 1132] [client ::1:50109] PHP Fatal error:  Uncaught TypeError: type_func(): Return value must be of type int, string returned in C:\\localhost\\study\\vasilev_book\\5_chapter\\index.php:31\nStack trace:\n#0 C:\\localhost\\study\\vasilev_book\\5_chapter\\index.php(33): type_func('\\xD0\\x9C\\xD0\\xB0\\xD0\\xBA\\xD0\\xB0\\xD1\\x80', 199)\n#1 {main}\n  thrown in C:\\localhost\\study\\vasilev_book\\5_chapter\\index.php on line 31
+[Mon Feb 03 16:51:49.815499 2025] [php:notice] [pid 9968:tid 1132] [client ::1:50605] PHP Deprecated:  Implicit conversion from float 199.01 to int loses precision in C:\\localhost\\study\\vasilev_book\\5_chapter\\index.php on line 30
+[Mon Feb 03 16:53:13.062451 2025] [php:error] [pid 9968:tid 1144] [client ::1:50651] PHP Fatal error:  strict_types declaration must be the very first statement in the script in C:\\localhost\\study\\vasilev_book\\5_chapter\\index.php on line 11
+[Mon Feb 03 16:57:51.436655 2025] [php:notice] [pid 9968:tid 1132] [client ::1:50997] PHP Deprecated:  Implicit conversion from float 199.55 to int loses precision in C:\\localhost\\study\\vasilev_book\\5_chapter\\index.php on line 31
+[Mon Feb 03 17:31:55.553509 2025] [php:notice] [pid 9968:tid 1144] [client ::1:52860] PHP Deprecated:  Implicit conversion from float 199.55 to int loses precision in C:\\localhost\\study\\vasilev_book\\5_chapter\\index.php on line 31
+[Mon Feb 03 17:49:47.288004 2025] [mpm_winnt:notice] [pid 17088:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Feb 03 17:50:11.799725 2025] [mpm_winnt:notice] [pid 9968:tid 428] AH00364: Child: All worker threads have exited.

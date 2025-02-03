@@ -1,3 +1,4 @@
+<!--Массивы-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -121,6 +122,7 @@
 
         // Функция range()
         // Создает массив со значениями в диапазоне
+        print("<br>Функция range()<br>");
         $arr_12 = range(5, 10);
         print_r($arr_12);
         echo "<br>";
